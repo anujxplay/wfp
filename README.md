@@ -62,13 +62,3 @@ Forecast trends
 AQI & pollutants
 
 Rain probability
-
-✅ Future Enhancements
-
-🌍 Integrate live API connections for automatic refresh.
-
-📱 Optimize dashboard for Power BI Service & Mobile App.
-
-🔔 Add alerts for extreme weather conditions.
-
-🛰 Include satellite/radar visuals.
