@@ -27,7 +27,7 @@ It provides **real-time weather updates, forecasts, and air quality analysis** w
 
 ## 📸 Dashboard Preview  
 
-(WFP.png)  
+![Weather Dashboard](Screenshot%202025-09-29%20151116.png)
 
 ---
 
