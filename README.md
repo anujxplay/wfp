@@ -27,7 +27,7 @@ It provides **real-time weather updates, forecasts, and air quality analysis** w
 
 ## 📸 Dashboard Preview  
 
-![WFP Screenshot](sc.png)  
+!(WFP .png)  
 
 ---
 
@@ -51,7 +51,7 @@ It provides **real-time weather updates, forecasts, and air quality analysis** w
 ## 🔗 LinkedIn Post  
 
 I shared this dashboard on LinkedIn as part of my **Power BI projects journey**.  
-Check out the post [here]() *(replace with actual link once posted).*  
+Check out the post [here](https://www.linkedin.com/posts/anuj-yadav-7a7993309_powerbi-dataanalytics-datavisualization-activity-7378564238853918720-qISA?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE6iLa8B0MKsjEFp93wfv2gF4UIBrDLriHQ) *(replace with actual link once posted).*  
 
 ---
 
