@@ -1,64 +1,59 @@
-🌦 Weather Forecast Dashboard – Power BI
-📌 Project Overview
+# 🌦️ Weather Dashboard in Power BI   
 
-This Power BI project provides an interactive weather forecast dashboard with real-time insights into:
 
-Current weather conditions
+This project is an **interactive Weather Dashboard** built in **Power BI** using a **Weather API**.  
+It provides **real-time weather updates, forecasts, and air quality analysis** with clear and engaging visualizations.  
 
-7-day forecast trends
+---
 
-Air Quality Index (AQI)
+## 🚀 Features  
 
-Sunrise & Sunset timings
+- 📍 **Location-based Weather** – Current temperature, humidity, pressure, wind speed, and visibility  
+- 🌡️ **7-Day Forecast** – Line chart to track temperature changes over the week  
+- 🌅 **Sunrise & Sunset** – Daily timings  
+- ☔ **Chance of Rain** – Probability of rainfall with detailed day-wise percentages  
+- 🌍 **Air Quality Index (AQI)** – PM10, PM2.5, CO, NO2, O3, and SO2 levels  
+- 🔎 **User-Friendly Design** – Clean, modern Power BI interface  
 
-Rain probability
+---
 
-The dashboard is designed to be intuitive, visually engaging, and informative for monitoring weather patterns and air quality.
+## 🛠️ Tech Stack  
 
-📊 Features
+- **Power BI** – Data visualization & dashboard creation  
+- **Weather API** – Real-time weather & forecast data  
+- **DAX & Power Query** – Data transformation and calculations  
 
-🌡 Current Weather – Temperature, humidity, wind speed, pressure, visibility.
+---
 
-📈 Forecast Weather – Multi-day forecast with trendline visualization.
+## 📸 Dashboard Preview  
 
-🌅 Sunrise & Sunset – Daily timings.
+![WFP Screenshot](sc.png)  
 
-🍃 Air Quality Index (AQI) – Real-time AQI data with pollutant breakdown (PM10, PM2.5, CO, NO2, O3, SO2).
+---
 
-☔ Chance of Rain – Rain probability for upcoming days.
+## ⚡ How It Works  
 
-🎨 Interactive Dashboard – Built with Power BI for dynamic exploration.
+1. Weather API provides **real-time and forecast data**.  
+2. Power BI connects to the API, processes data via **Power Query**.  
+3. DAX formulas used for calculations like rain probability & AQI classification.  
+4. Dashboard auto-refreshes to show **latest weather conditions**.  
 
-🛠️ Tools & Technologies
+---
 
-Power BI Desktop – For report and dashboard development
+## 📊 Use Cases  
 
-Data Source – Weather API / CSV / Excel (as per project requirement)
+- 🌍 Daily weather monitoring  
+- 📈 Data storytelling & visualization practice  
+- 🧑‍💻 Learning project for **Power BI + API integration**  
 
-Power Query – For data cleaning and transformation
+---
 
-DAX (Data Analysis Expressions) – For custom measures & calculations
+## 🔗 LinkedIn Post  
 
-Visualization – Native Power BI charts and custom visuals
+I shared this dashboard on LinkedIn as part of my **Power BI projects journey**.  
+Check out the post [here]() *(replace with actual link once posted).*  
 
-📂 Project Structure
-WeatherForecast_PowerBI/
-│── Weather_Forecast.pbix     # Power BI dashboard file
-│── Data/                     # Raw/processed data files (CSV, Excel, API extracts)
-│── README.md                 # Project documentation
+---
 
-🚀 How to Use
 
-Open the Weather_Forecast.pbix file in Power BI Desktop.
 
-Refresh the dataset to load the latest weather data.
-
-Explore the dashboard to view:
-
-Current conditions
-
-Forecast trends
-
-AQI & pollutants
-
-Rain probability
