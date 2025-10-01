@@ -1,88 +1,74 @@
-**🌤️ Weather Forecast Dashboard (Power BI)**
+🌦 Weather Forecast Dashboard – Power BI
+📌 Project Overview
 
-This project is a Power BI Dashboard that provides real-time and forecasted weather conditions, air quality data, and other environmental insights. The dashboard helps visualize weather patterns, pollution levels, and forecasts in an interactive and user-friendly format.
+This Power BI project provides an interactive weather forecast dashboard with real-time insights into:
 
-🚀 Features
+Current weather conditions
 
-Current Weather Data
-
-Location-based temperature (°C)
-
-Weather conditions (e.g., Mist, Sunny, Cloudy)
-
-Live updates via data refresh
-
-Weather Forecast
-
-7-day temperature forecast with line chart visualization
-
-Sunrise & Sunset timings
-
-Environmental Data
-
-Humidity, Wind Speed, Pressure, Visibility, UV Index, and Precipitation
-
-Chance of rain probability with percentage breakdown
+7-day forecast trends
 
 Air Quality Index (AQI)
 
-AQI value with health advisory (Good, Moderate, Poor, etc.)
+Sunrise & Sunset timings
 
-Pollutant breakdown: PM10, PM2.5, O3, NO2, SO2, CO
+Rain probability
+
+The dashboard is designed to be intuitive, visually engaging, and informative for monitoring weather patterns and air quality.
+
+📊 Features
+
+🌡 Current Weather – Temperature, humidity, wind speed, pressure, visibility.
+
+📈 Forecast Weather – Multi-day forecast with trendline visualization.
+
+🌅 Sunrise & Sunset – Daily timings.
+
+🍃 Air Quality Index (AQI) – Real-time AQI data with pollutant breakdown (PM10, PM2.5, CO, NO2, O3, SO2).
+
+☔ Chance of Rain – Rain probability for upcoming days.
+
+🎨 Interactive Dashboard – Built with Power BI for dynamic exploration.
 
 🛠️ Tools & Technologies
 
-Power BI Desktop / Power BI Service
+Power BI Desktop – For report and dashboard development
 
-Data Sources:
+Data Source – Weather API / CSV / Excel (as per project requirement)
 
-Weather API (e.g., OpenWeather
-)
+Power Query – For data cleaning and transformation
 
-AQI API (e.g., IQAir
-)
+DAX (Data Analysis Expressions) – For custom measures & calculations
 
-Data Transformation: Power Query (ETL process)
-
-Data Visualization: Power BI charts, cards, slicers, and custom visuals
+Visualization – Native Power BI charts and custom visuals
 
 📂 Project Structure
-weather-forecast-powerbi/
-│── Data/                     # Raw weather & AQI datasets  
-│── Weather_Forecast.pbix     # Power BI dashboard file  
-│── README.md                 # Documentation  
-│── Screenshots/              # Dashboard images  
+WeatherForecast_PowerBI/
+│── Weather_Forecast.pbix     # Power BI dashboard file
+│── Data/                     # Raw/processed data files (CSV, Excel, API extracts)
+│── README.md                 # Project documentation
 
-⚙️ How to Use
+🚀 How to Use
 
-Download the .pbix file from this repository.
+Open the Weather_Forecast.pbix file in Power BI Desktop.
 
-Open it in Power BI Desktop.
+Refresh the dataset to load the latest weather data.
 
-Go to Transform Data (Power Query) and update API keys or data source paths.
+Explore the dashboard to view:
 
-Refresh the dashboard to load the latest data.
+Current conditions
 
-(Optional) Publish the dashboard to Power BI Service for online access.
+Forecast trends
 
-📊 Dashboard Insights
+AQI & pollutants
 
-Current Weather in Noida: 35.1°C (Mist)
+Rain probability
 
-AQI: 100 (Moderate)
+✅ Future Enhancements
 
-Chance of Rain: 89% on Monday
+🌍 Integrate live API connections for automatic refresh.
 
-Forecast: Gradual cooling trend (31.3°C → 30.2°C)
+📱 Optimize dashboard for Power BI Service & Mobile App.
 
-🌎 Future Enhancements
+🔔 Add alerts for extreme weather conditions.
 
-Add multi-city weather comparison dashboards
-
-Integrate real-time streaming datasets in Power BI Service
-
-Use AI visuals to forecast temperature & AQI trends
-
-Add alerts & notifications in Power BI for severe weather
-
-📜 License
+🛰 Include satellite/radar visuals.
